@@ -1,0 +1,59 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Runtime databases, vector stores and generated user data
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+backend/data/chroma/
+backend/app/saved_results/
+backend/uploads/
+uploads/
+output/
+
+# Office temporary lock files
+~$*
+
+# Local scratch workspace
+tmp/
+
+# Large presentation media (keep locally; Git cannot meaningfully diff them)
+docs/*.mp4
+docs/*.pptx
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
